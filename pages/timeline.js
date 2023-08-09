@@ -85,8 +85,18 @@ function Timeline() {
           </p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
-          iconStyle={{ background: 'rgb(16, 204, 82)', color: '#fff' }}
-        />
+          className="vertical-timeline-element--work"
+          contentStyle={{ background: 'green', color: '#fff' }}
+          contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
+          date="2023 - present"
+          iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+        >
+          <h3 className="vertical-timeline-element-title">Timeline test 1</h3>
+
+          <p>
+            this timeline app gonna blow your mind
+          </p>
+        </VerticalTimelineElement>
       </VerticalTimeline>
 
     </div>
